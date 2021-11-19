@@ -1,12 +1,16 @@
 # currents-nx-example
 
-Example integration of NX using `@currents/nx` plugin for running cypress tests with Currents.dev
+Example integration of NX using [`@currents/nx` plugin](https://www.npmjs.com/package/@currents/nx) for running cypress tests with Currents.dev.
+
+
 
 ## Walkthrough
 
 `@currents/nx` uses `@nrwl/cypress` behind the scenes - you need to install and configure `@nrwl/cypress` following the [documentation](https://nx.dev/l/r/cypress/overview).
 
-You can recreate the example following the next step. Setup your project
+You can recreate the example following the next steps. 
+
+Setup your project.
 
 ```sh
 
@@ -43,4 +47,8 @@ Set `projectId` obtained from https://app.currents.dev in [`cypress.json`](https
 nx run frontend-e2e:currents --parallel --record --key <key> --ci-build-id hello-currents-nx
 ```
 
-Here's an visual example of the demo workflow sending its results to Currents dashboard
+Here's an visual example of the demo workflow sending cypress test results to Currents dashboard
+
+![Kapture 2021-11-19 at 01 14 50](https://user-images.githubusercontent.com/1637928/142597762-3cc0009f-d030-46aa-b273-1c31300c65f6.gif)
+
+
