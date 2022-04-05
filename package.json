@@ -9,7 +9,7 @@
   },
   "private": true,
   "devDependencies": {
-    "@currents/nx": "^0.0.3",
+    "@currents/nx": "^0.0.5",
     "@nrwl/cli": "13.2.0",
     "@nrwl/cypress": "13.2.0",
     "@nrwl/eslint-plugin-nx": "13.2.0",
@@ -22,7 +22,7 @@
     "@types/node": "14.14.33",
     "@typescript-eslint/eslint-plugin": "~4.33.0",
     "@typescript-eslint/parser": "~4.33.0",
-    "cypress": "^8.3.0",
+    "cypress": "^9.5.3",
     "eslint": "7.32.0",
     "eslint-config-prettier": "8.1.0",
     "eslint-plugin-cypress": "^2.10.3",
