@@ -39,7 +39,7 @@ Set executor value to `"@currents/nx:currents"`, and `"options.cypressExecutor"`
 }
 ```
 
-Set `projectId` obtained from https://app.currents.dev in [`cypress.json`](https://github.com/currents-dev/currents-nx-example/blob/5cdf29cae42c2c8dfd6af52f80d9fa9f2ff886de/apps/frontend-e2e/cypress.json#L4) file. Now you can start recording your tests to Currents.dev dashboard.
+Set `projectId` obtained from https://app.currents.dev in `cypress.config.js` file. Now you can start recording your tests to Currents.dev dashboard.
 
 ```sh
 nx run frontend-e2e:currents --record --key <key> --ci-build-id hello-currents-nx -- --parallel
@@ -81,6 +81,6 @@ While having those options defined, you can omit the corresponding CLI flags:
 nx run frontend-e2e:currents  --ci-build-id hello-currents-nx-001
 ```
 
-Here's an visual example of the demo workflow sending cypress test results to Currents dashboard
+Here's a visual example of the demo workflow sending cypress test results to Currents dashboard
 
 ![Kapture 2021-11-19 at 01 14 50](https://user-images.githubusercontent.com/1637928/142597762-3cc0009f-d030-46aa-b273-1c31300c65f6.gif)
