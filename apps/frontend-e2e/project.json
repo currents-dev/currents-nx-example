@@ -6,21 +6,14 @@
     "currents": {
       "executor": "@currents/nx:currents",
       "options": {
-        "cypressExecutor": "e2e"
-      }
-    },
-    "e2e": {
-      "executor": "@nrwl/cypress:cypress",
-      "options": {
         "cypressConfig": "apps/frontend-e2e/cypress.config.js",
+        "parallel": true,
+        "record": true,
+        "tag": "nx",
         "devServerTarget": "frontend:serve"
-      },
-      "configurations": {
-        "production": {
-          "devServerTarget": "frontend:serve:production"
-        }
       }
     },
+
     "lint": {
       "executor": "@nrwl/linter:eslint",
       "outputs": ["{options.outputFile}"],

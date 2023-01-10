@@ -9,20 +9,11 @@
   },
   "private": true,
   "devDependencies": {
-    "@currents/nx": "^0.1.1",
-    "@nrwl/cli": "13.2.0",
-    "@nrwl/cypress": "15.0.13",
-    "@nrwl/eslint-plugin-nx": "13.2.0",
-    "@nrwl/jest": "13.2.0",
-    "@nrwl/linter": "13.2.0",
-    "@nrwl/tao": "13.2.0",
-    "@nrwl/web": "^13.2.0",
-    "@nrwl/workspace": "13.2.0",
     "@types/jest": "27.0.2",
     "@types/node": "14.14.33",
     "@typescript-eslint/eslint-plugin": "~4.33.0",
     "@typescript-eslint/parser": "~4.33.0",
-    "cypress": "^11.0.1",
+    "cypress": "^11.2.0",
     "eslint": "7.32.0",
     "eslint-config-prettier": "8.1.0",
     "eslint-plugin-cypress": "^2.10.3",
@@ -32,8 +23,11 @@
     "typescript": "~4.4.3"
   },
   "dependencies": {
+    "@currents/nx": "^1.0.0-beta.2",
+    "@nrwl/cypress": "^15.4.5",
+    "@nrwl/web": "^15.4.5",
+    "@nrwl/workspace": "^15.4.5",
     "core-js": "^3.6.5",
-    "cy2": "^3.2.0",
     "regenerator-runtime": "0.13.7",
     "tslib": "^2.0.0"
   }
