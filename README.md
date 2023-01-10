@@ -20,7 +20,7 @@ npm i -D @nrwl/web
 nx g @nrwl/web:app frontend
 
 # Install @currents/nx
-npm i -D @currents/nx
+npm i -D @currents/nx@beta
 
 # Configure a new target in apps/frontend-e2e/project.json
 vim apps/frontend-e2e/project.json
