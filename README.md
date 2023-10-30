@@ -16,11 +16,11 @@ cd currents-nx-example
 
 # Create a dummy web project, choose any CSS styling
 # That will create a new project with `@nrwl/cypress` pre-installed and configured
-npm i -D @nrwl/web
-nx g @nrwl/web:app frontend
+npm i -D @nx/web
+nx g @nx/web:app frontend
 
 # Install @currents/nx
-npm i -D @currents/nx@beta
+npm i -D @currents/nx
 
 # Configure a new target in apps/frontend-e2e/project.json
 vim apps/frontend-e2e/project.json
