@@ -1,3 +1,14 @@
+# ⚠️ ARCHIVED REPOSITORY ⚠️
+
+> **This repository is now archived and read-only.**
+>
+> For the latest examples and updates, please visit our new repository:
+>
+> # [👉 https://github.com/currents-dev/currents-examples](https://github.com/currents-dev/currents-examples/tree/main/cypress/nx)
+
+---
+
+
 # currents-nx-example
 
 Example of using [`@currents/nx`](https://www.npmjs.com/package/@currents/nx) plugin for integrating cypress with alternative orchestration services - [Currents](https://currents.dev) and [Sorry Cypress](https://sorry-cypress.dev)
